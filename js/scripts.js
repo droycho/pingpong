@@ -8,27 +8,18 @@ $("form#enter").submit(function(event) {
   }
 
   var factorsThree = list.map(function(item){
-    if (item % 3 === 0) {
-      return "ping"
-    }
-  });
-  var factorsFive = list.map(function(item){
-    if (item % 5 === 0) {
-      return "pong"
-    }
-  });
-  var factorsFifteen = list.map(function(item){
     if (item % 15 === 0) {
       return "pingpong"
+    } else if (item % 5 === 0) {
+      return "pong"
+    } else if (item % 3 === 0) {
+      return "ping"
+    } else {
+      return item
     }
   });
-
-  var combinedArray =
+  console.log(list);
   console.log(factorsThree);
-  console.log(factorsFive);
-  console.log(factorsFifteen);
+$('#output').append("<li>" + factorsThree + "</li>");
 
-
-
-  $("#output").append(result);
 });
