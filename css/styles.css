@@ -1,0 +1,43 @@
+body {
+  background-color: lightgrey;
+}
+
+.page-header {
+  text-align: center;
+  background-color: beige;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: auto;
+}
+
+.sidebar {
+  width: 20%;
+  float: left;
+  text-align: left;
+  background-color: lightgreen;
+  padding-left: 10px;
+  height: 100%;
+  position:absolute;
+}
+
+#sidebarHeader {
+  background-color: lightgreen;
+  font-size: 20px;
+}
+.contentBody {
+  float: right;
+  padding-left: 60px;
+  width: 80%;
+}
+
+#created {
+  font-size: 15px;
+}
+
+#gitHub {
+  font-size: 15px;
+}
+
+#project {
+  font-size: 15px;
+}

@@ -10,14 +10,45 @@
     <title>Ping Pong</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Ping Pong Number Game</h1>
+    <!-- Header -->
+    <div class="page-header" id="pageHeader">
+      <h1>Ping-Pong</h1>
+    </div>
+    <!-- Header     -->
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h1 id="sidebarHeader">About Ping Pong</h1>
+          <h2 id="created">Created by:</h2>
+            <p>
+              Dj Roychoudhury
+            </p>
+          <h2 id="gitHub">GitHub Username/URL:</h2>
+            <p>
+              <a href="https://github.com/droycho">droycho</a>
+            </p>
+          <h2 id="project">Level 1, Intro Test for:</h2>
+            <p>
+              Intro to Programming Week 3: Arrays and Looping
+            </p>
+    </div>
+    <!-- Sidebar -->
+    <!-- Content -->
+    <div class="container contentBody">
+      <h1>Let's play!</h1>
+      <p>
+        Ping Pong will count up to your number from 1 with the following exceptions:
+          <ol>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+          </ol>
+      </p>
       <form id="enter">
         <div class="form-group">
-          <label for="input1">Enter a number you want to count <em>up to</em>:</label>
+          <label for="input1">Enter your number here:</label>
           <input id="input1" class="form-control" type="number">
         </div>
-          <button type="submit" class="btn">Play Pong!</button>
+          <button type="submit" class="btn">Ping Pong!</button>
       </form>
 
       <div>
@@ -26,5 +57,6 @@
 
   </div>
     <script src="js/scripts.js"></script>
+    <!-- Content       -->
   </body>
   </html>
