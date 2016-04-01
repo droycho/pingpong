@@ -1,3 +1,4 @@
+// Interface
 $("form#enter").submit(function(event) {
   event.preventDefault();
   var userNumber= parseInt($("input#input1").val());
@@ -6,7 +7,8 @@ $("form#enter").submit(function(event) {
   for (var i = 1; i <= userNumber; i++) {
     list.push(i);
   }
-
+// Interface
+// Business Logic
   var factorsThree = list.map(function(item){
     if (item % 15 === 0) {
       return "pingpong"
@@ -18,8 +20,9 @@ $("form#enter").submit(function(event) {
       return item
     }
   });
-  console.log(list);
-  console.log(factorsThree);
-$('#output').append("<li>" + factorsThree + "</li>");
+// Business Logic
+factorsThree.forEach(function(number) {
+  $("#output").append("<li>" + number + "</li>")
+});
 
 });
