@@ -12,7 +12,7 @@ This webpage is not meant to be very exciting, most of the magic is happening in
 
 * clone repository to your desktop
 * once all files are in the proper directory, open the index.html page in web browser and everything should run fine.
-* I will be adding the gh-pages branch to allow ease of access without need for cloning. Just ran out of time to complete that extra step.
+* OR you can just go directly to the page link at http://droycho.github.io/pingpong/.
 
 
 ## Known Bugs
